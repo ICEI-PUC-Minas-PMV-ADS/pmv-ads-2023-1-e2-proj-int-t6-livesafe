@@ -20,10 +20,10 @@ A solução implementada conta com os seguintes módulos:
      - **Comentários** - registro de opiniões dos usuários sobre as notícias
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
  - **Leak API ** -  plataforma que permite o acesso aos resultados exibidos no site.
- - 
- - **Hospedagem** - O site utiliza a plataforma do GitHub como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_2">Link</a>
+ - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+
 
 ## Hospedagem
+O site utiliza a plataforma do GitHub como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Website com GitHub Pages](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_2)
