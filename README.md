@@ -11,7 +11,6 @@ Projeto tem como objetivo varrer a internet (banco de dados já expostos) e avis
 ## Integrantes
 
 * Taciana Emanuela Campos Vitorino
-* César Eustáquio Teixeira
 * Felipe Corrêa Carneiro
 * Mattheus Câmara
 * Maria Julia Silva Medeiros 
