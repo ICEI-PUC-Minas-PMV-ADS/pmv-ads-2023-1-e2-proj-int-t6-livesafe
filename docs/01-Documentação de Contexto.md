@@ -1,46 +1,37 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Neste instante milhões de pessoas estão criando login e senhas seja para uma compra, ou pagar suas contas. Essa simples atitude é o bastante para pessoas mal intencionadas roubar seus dados ou até mesmo uma empresa utilizar esses dados para criar um marketing personalizado e enviar aqueles alertas com sua busca de determinado produto. 
+Em todo o momento, somos bombardeados por informações, informações que podem ser aleatórias ou dados importantes como por exemplo informações pessoais e dados sigilosos de setores e pessoas diversas. Tais informações sensíveis podem ser senhas de banco, identidade, endereço, telefone, e-mail etc. 
+Como garantir a segurança dos nossos dados? 
+De acordo com o site www.neoenergia.com acessado em 29/08/2022 “Lei 13.709, conhecida como Lei Geral de Proteção de Dados. A LGPD foi sancionada em agosto de 2018, por Michel Temer e entrou em vigor no dia 18 de setembro de 2018. A partir da sanção, todas as empresas deverão seguir as definições legais para de tratamento dos dados pessoais de clientes, colaboradores, visitantes, fornecedores ou qualquer outra categoria de titular que tenha seus dados processados. O uso de qualquer informação pessoal, desde as mais básicas, como nome e e-mail, até dados de saúde, deverá se enquadrar na nova lei. As multas pelo descumprimento podem chegar a R$ 50 milhões.” 
+Diante dessa lei que tem como o principal objetivo garantir a segurança dos dados pessoais, a privacidade de dados deixa de ser uma opção e sim um direito garantido. 
+Com o exposto acima é imprescindível que meios de proteção mais eficientes sejam acessível a todos para que cada vez mais pessoas não possam estar a mercê de ataques à confidencialidade de suas informações. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Como apresentado, o problema se delimita em analisar formas de proteção da informação adequadas para que tenhamos uma confiabilidade necessária de que este dados não serão acessados por pessoas e usuários que tenham intenções maliciosas ou que os dados façam estejam disponíveis e nos torne vulnerável.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Como objetivos específicos, podemos ressaltar:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Fornecer funcionalidades que permitam dar mais segurança para o usuário através de informações sensíveis aos usuários;
+Interação com plataformas e centrais de segurança preventiva
+Consultar quais dados foram vazados
+Pesquisar se um email/nickname determinado foi vazado
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Uma pesquisa que foi realizada pela Massachusetts Institute of Technology (“MIT”) publicada no Journal of Data and Information Quality da ACM (Association for Computing Machinery) aponta que vazamentos de dados aumentaram 493% no Brasil, sendo que mais de 205 milhões de dados de brasileiros vazaram de forma criminosa em 2019. Em número de incidentes relevantes, o país saltou de 3, em 2018, para 16 em 2019.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Em maio de 2016, LinkedIn teve 164 milhões de endereços de e-mail e senhas expostos. Originalmente hackeado em 2012, os dados permaneceram omitidos até começarem a ser oferecidos em sites no mercado negro 4 anos antes. (Troy Hunt: Observations and thoughts on the LinkedIn data breach)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Destina-se a pessoas em geral que gostariam de ter as suas informações protegidas de forma mais efetiva.
+Empresas que tenham interesse em assegurar as informações dos clientes, colaboradores, parceiros com os dados coletados. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+## Proposta e solução
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+A proposta de trabalho está em ajudar as pessoas a protegerem suas contas na internet de possíveis violações de segurança. Focando no vazamento de senhas em sites hackeados, que podem expor informações pessoais e comprometer a segurança das contas dos usuários.
+
+Como solução para esse problema, foi criado um site onde os usuários podem verificar os seus dados e se eles foram hackeados, bem como se o e-mail associado à conta foi exposto. Isso permite que os usuários saibam se suas informações foram comprometidas e tomem medidas para proteger suas contas, como mudar suas senhas e habilitar a autenticação de dois fatores. A proposta está também em fornecer uma ferramenta útil e fácil de usar para ajudar as pessoas a protegerem suas contas na internet e evitar possíveis violações de segurança.
