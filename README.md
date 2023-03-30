@@ -1,33 +1,29 @@
-# TÍTULO DO PROJETO
+# Live Safe
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto Aplicação Web`
 
-`SEMESTRE`
+`1º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto tem como objetivo varrer a internet (banco de dados já expostos) e avisa no ato se há dados do usuário vazados na interent.
 
 ## Integrantes
 
-* Taciana
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Taciana Emanuela Campos Vitorino
+* César Eustáquio Teixeira
+* Felipe Corrêa Carneiro
+* Mattheus Câmara
+* Maria Julia Silva Medeiros 
+* Rafael Fernando de Brito Oliveira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+A Aplicação é muito simples, por outro lado muito importante. O usuário digita seu dado que quer verificar no campo de pesquisa e recebe uma mensagem.
 
 # Documentação
 
@@ -37,20 +33,22 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
 <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
-<li><a href="docs/06-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
+<li><a href="docs/06-Template padrão do Site.md"> Template padrão do Site</a></li>
 <li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
-<li><a href="docs/13-Referências.md"> Referências</a></li>
+<li><a href="docs/10-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
+<li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+# Hospedagem
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t6-grupo_2/ 
 
-# Apresentação
+# Armazenamento do Código-Fonte
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+* <a href="src/README.md">Código Fonte</a>
+
+# Armazenamento da Apresentação
+
+* <a href="presentation/README.md">Apresentação da solução</a>
