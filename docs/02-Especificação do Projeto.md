@@ -61,7 +61,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue no final do semestre letivo, não podendo advir a data de 01/12/2023. |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O aplicativo não deve se restringir às tecnologias básicas da Web no BackEnd        |
 |03| A equipe não pode subcontratar o desenvolvimento do trabalho.       |
 
 ## Diagrama de Casos de Uso
