@@ -5,6 +5,8 @@
 
 <p>A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.</p>
 
+<h2>Relação de Ambientes de Trabalho</h2>
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
