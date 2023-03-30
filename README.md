@@ -19,7 +19,7 @@ Projeto tem como objetivo varrer a internet (banco de dados já expostos) e avis
 
 ## Orientador
 
-* Nathalia Assis Valentim
+* Bernardo Jeunon De Alencar
 
 ## Instruções de utilização
 
