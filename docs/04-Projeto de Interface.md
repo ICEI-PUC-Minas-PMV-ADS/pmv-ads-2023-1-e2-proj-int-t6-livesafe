@@ -1,36 +1,37 @@
 
 # Projeto de Interface
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
-## Diagrama de Fluxo
-
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
-
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
-
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+## Fluxo do Usuário
+O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto.
+![Fluxo-do-usuário](https://user-images.githubusercontent.com/115049348/229243320-9258af3d-1fe6-4e33-8df0-92eec418b277.png)
 
 ## Wireframes
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 3. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+<ul><li>Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+<li>Conteúdo - apresenta o conteúdo da tela em questão;
+<li>Rodapé - apresenta os elementos de navegação relacionados ao contato com o time de desenvolvimento.</ul>
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Wireframe](https://user-images.githubusercontent.com/115049348/229244145-aa83bdaf-80c4-4f2d-b677-37318e04992d.png)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+## Tela - Home-Page
+A tela de home-page mostra uma página estática. Com base na estrutura padrão, o bloco de Conteúdo traz um componente de pesquisa, permite adicionar na página o resultado da busca solicitada pelo usuário;
+
+![Home-page](https://user-images.githubusercontent.com/115049348/229243765-67701915-47c4-4760-975e-9292a2ed5a58.png)
+
+## Tela - Dicas de segurança
+A tela de dicas de segurança apresenta, no Bloco de Conteúdo, as dicas referentes às principais recomendações contra vazamento de dados.
+
+![Dicas-seguranca](https://user-images.githubusercontent.com/115049348/229243815-afc1723b-daf6-4772-a737-c7ee11609252.png)
+
+## Tela - Resultado de Pesquisa
+Assim que o usuário informa um texto de pesquisa, ao clicar no botão Verificar, ele é direcionado para uma tela que traz a relação de dados associadas ao texto informado. Este resultado é apresentado nas Figuras a seguir.
+
+![Resultado-pesquisa](https://user-images.githubusercontent.com/115049348/229243930-4810fde1-b70d-4d46-86cc-f424ac3f59e5.png)
+
+## Tela - Contato
+Na tela que permite ao usuário entrar em contato, deve-se informar um e-mail válido. Em seguida, deve-se confirmar o envio do mesmo. Na sequência, o usuário receberá em sua caixa de entrada de seu e-mail, uma mensagem informando que o próprio pode entrar em contato com a equipe respondendo aquele email.
+
+![tela-contato](https://user-images.githubusercontent.com/115049348/229243989-fd36786d-c8e3-4343-b159-4ed402a3d280.png)
+
