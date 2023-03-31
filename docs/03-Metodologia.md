@@ -21,7 +21,8 @@ A equipe está organizada da seguinte maneira:
 <li type="disc">Equipe de Desenvolvimento:
   <ul> <li>Felipe Corrêa Carneiro
        <li> Matheus Câmara 
-       <li> Rafael Fernando de Brito Oliveira</ul>
+       <li> Rafael Fernando de Brito Oliveira
+       <li> Maria Júlia Silva Medeiros</ul>
 <li type="disc">Equipe de Design
         <ul><li>Taciana Emanuela Campos Vitorino</ul>
 
