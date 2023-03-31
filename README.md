@@ -4,7 +4,7 @@
 
 `Projeto Aplicação Web`
 
-`1º SEMESTRE`
+`2º SEMESTRE`
 
 Projeto tem como objetivo varrer a internet (banco de dados já expostos) e avisa no ato se há dados do usuário vazados na interent.
 
