@@ -34,5 +34,6 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/6Danj6SA/eixo-1-projeto-seguran%C3%A7a e é apresentado, no estado atual, na Figura 1. 
 
-<img src="file:///C:/Users/rafae/Downloads/Imagemtrello.pdf" alt="imagem_trello">
- 
+
+ ![Imagemtrello](https://user-images.githubusercontent.com/115049348/229242570-adde4887-9bbb-4a8b-a241-ae67061da057.png)
+
