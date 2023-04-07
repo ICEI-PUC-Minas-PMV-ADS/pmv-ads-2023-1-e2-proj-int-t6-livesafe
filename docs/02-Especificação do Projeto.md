@@ -68,4 +68,5 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 Esse diagrama contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-![Diagrama de caso de uso](https://user-images.githubusercontent.com/104511336/228986405-d8ffa1af-a802-4843-b07d-f07e03ebc8a2.PNG)
+![Diagrama de Caso de uso-1](https://user-images.githubusercontent.com/104511336/230667625-a8e4af21-bcda-4647-8045-be73447d27d9.png)
+
