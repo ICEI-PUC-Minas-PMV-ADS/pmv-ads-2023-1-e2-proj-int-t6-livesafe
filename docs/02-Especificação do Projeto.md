@@ -37,11 +37,11 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A tela inicial deve apresentar  caixa para pesquisa de dados, links sobre segurança de dados dinâmicos, um vídeo explicativo sobre o tema obtido pela internet(API). | ALTA | 
-|RF-002| O site deve permitir o uso da consulta, digitar o login desejado para pesquisa. Caso o dado tenha sido vazado o sistema deverá apresentar a mensagem padrão “Cuidado!Encontramos um vazamento de informação!””.    | ALTA |
-|RF-003| O site deve permitir clicar no comando de consulta, digitar o login desejado para pesquisa. Caso o dado NÃO tenha sido vazado apresentar a mensagem padrão do sistema “Boas notícias! Seus Dados não foram vazados!.  | ALTA |
-|RF-004| O site deve permitir ao usuário visualizar todos dados vazados e perspectivas de databases (bancos, sites e apps) de onde saíram. | ALTA |
-|RF-005| O site deve apresentar dicas de segurança, logo após a pesquisa, para ajudar a manter dados do usuário preservados. | MÉDIA |
+|RF-001| A plataforma deve oferecer ao usuário a opção de realizar o cadastro e login. | ALTA | 
+|RF-002| O site deve  oferecer ao usuário os mecanismos para que seja realizada a pesquisa para verificar se houve vazamento de dados.    | ALTA |
+|RF-003| O site  deve exibir uma mensagem informando ao usuário o resultado da pesquisa.  | ALTA |
+|RF-004| O site deve disponibilizar informações sobre Segurança Digital. | ALTA |
+|RF-005| O site deve permitir ao usuário visualizar todos dados vazados e o registro do usuário é salvo no banco de dados. | MÉDIA |
 
 ### Requisitos não Funcionais
 
