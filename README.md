@@ -34,11 +34,11 @@ A Aplicação é muito simples, por outro lado muito importante. O usuário digi
 <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
 <li><a href="docs/06-Template Padrão da Aplicação.md"> Template do Site</a></li>
 <li><a href="docs/07-Programação de Funcionalidades.md"> Plano de Testes de Software</a></li>
-<li><a href="docs/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/09-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/10-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
-<li><a href="docs/12-Referências.md"> Referências</a></li>
+<li><a href="docs/08-Plano de Testes de Software.md"> Registro de Testes de Software</a></li>
+<li><a href="docs/09-Registro de Testes de Software.md"> Plano de Testes de Usabilidade</a></li>
+<li><a href="docs/10-Plano de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
+<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
+<li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
 # Hospedagem
