@@ -4,13 +4,15 @@
 
 Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 
-## Diagrama de componentes
-Os componentes que fazem parte da solução são apresentados na Figura que se segue.
-Exemplo: 
+### Diagrama de Classes
+
+A arquitetura da solução consiste em uma aplicação web, uma API Rest e um banco de dados SQL Server hospedados em um servidor web na AZURE. O sistema pode ser acessado através de interfaces web instaladas em desktops, notebooks, dispositivos móveis e painéis televisores.
+
+Na figura a seguir são apresentados as classes do sistema.
+<img width="1000" alt="Screenshot 2023-04-12 at 8 49 10 PM" src="https://user-images.githubusercontent.com/112135152/231610879-a53f7434-0e0b-4410-a03b-16eeee90fd3b.png">
 
 
-![Arquitetura da Solução (Diagrama de Componentes)](https://user-images.githubusercontent.com/112135152/228979741-235ee67f-70ad-447f-91ae-5907719e9849.jpg)
-<center>Figura 8 - Arquitetura da Solução</center>
+
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
