@@ -33,7 +33,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 <li type="disc">Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 <li type="disc">Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.</ul>
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/6Danj6SA/eixo-1-projeto-seguran%C3%A7a e é apresentado, no estado atual, na Figura 1. 
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/invite/b/qleajBNt/ATTIcbdd6576ef6a4470714ca71e82e47f8cF84EFCED/lifesafeprojectv2 e é apresentado, no estado atual, na Figura 1. 
 
 
 ![Imagemtrello](https://user-images.githubusercontent.com/115049348/229242570-adde4887-9bbb-4a8b-a241-ae67061da057.png)
