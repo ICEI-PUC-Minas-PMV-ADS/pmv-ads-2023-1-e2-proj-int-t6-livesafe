@@ -10,7 +10,7 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 |Repositório de código fonte|Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_2 | 
 |Documentos do projeto| Google Drive| https://drive.google.com/drive/u/0/folders/1ThoE22CH2qPdWq8NdCuczmEF7cFYuu4M |
 |Projeto de Interface e Wireframes| MarvelApp | https://marvelapp.com/whiteboard/DivaTWacKEUSNzfjaCGS |
-|Gerenciamento do Projeto| Trello | https://trello.com/b/6Danj6SA/eixo-1-projeto-seguran%C3%A7a
+|Gerenciamento do Projeto| Trello | [https://trello.com/b/6Danj6SA/eixo-1-projeto-seguran%C3%A7a](https://trello.com/b/qleajBNt/lifesafeprojectv2)
  
 ## Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
@@ -33,8 +33,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 <li type="disc">Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 <li type="disc">Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.</ul>
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/invite/b/qleajBNt/ATTIcbdd6576ef6a4470714ca71e82e47f8cF84EFCED/lifesafeprojectv2 e é apresentado, no estado atual, na Figura 1. 
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL [https://trello.com/invite/b/qleajBNt/ATTIcbdd6576ef6a4470714ca71e82e47f8cF84EFCED/lifesafeprojectv2](https://trello.com/b/qleajBNt/lifesafeprojectv2) e é apresentado, no estado atual, na Figura 1. 
 
 
-![Imagemtrello](https://user-images.githubusercontent.com/115049348/229242570-adde4887-9bbb-4a8b-a241-ae67061da057.png)
+![Trello](https://user-images.githubusercontent.com/104511336/231607558-e96b5b1a-3f59-4de3-a250-1b0796126119.PNG)
+
 
