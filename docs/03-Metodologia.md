@@ -16,8 +16,8 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
-<ul><li type="disc">Scrum Master: Felipe Carneiro
-<li type="disc">Product Owner: César Teixeira
+<ul><li type="disc">Scrum Master: Taciana Emanuela Campos Vitorino
+<li type="disc">Product Owner: Maria Júlia Silva Medeiros
 <li type="disc">Equipe de Desenvolvimento:
   <ul> <li>Felipe Corrêa Carneiro
        <li> Matheus Câmara 
