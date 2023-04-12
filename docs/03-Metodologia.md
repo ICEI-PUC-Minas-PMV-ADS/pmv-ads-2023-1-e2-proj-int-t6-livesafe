@@ -10,7 +10,7 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 |Repositório de código fonte|Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_2 | 
 |Documentos do projeto| Google Drive| https://drive.google.com/drive/u/0/folders/1ThoE22CH2qPdWq8NdCuczmEF7cFYuu4M |
 |Projeto de Interface e Wireframes| MarvelApp | https://marvelapp.com/whiteboard/DivaTWacKEUSNzfjaCGS |
-|Gerenciamento do Projeto| Trello | [https://trello.com/b/6Danj6SA/eixo-1-projeto-seguran%C3%A7a](https://trello.com/b/qleajBNt/lifesafeprojectv2)
+|Gerenciamento do Projeto| Trello | [https://trello.com/b/6Danj6SA/eixo-1-projeto-seguran%C3%A7a](https://trello.com/b/qleajBNt/lifesafeprojectv2)](https://trello.com/b/qleajBNt/lifesafeprojectv2)
  
 ## Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
