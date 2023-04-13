@@ -10,13 +10,14 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 
 <p>Na figura a seguir são apresentados as classes do sistema. </p>
 <img width="631" alt="Screenshot 2023-04-12 at 8 59 23 PM" src="https://user-images.githubusercontent.com/112135152/231611507-c1044542-5e9a-4f49-b132-bd1e352919c4.png">
+
 ## Modelo ER (Projeto Conceitual)
 
 Para modelar um sistema de agendamento de horários usando a abordagem de modelagem de dados Entidade-Relacionamento (ER), você precisaria identificar as entidades e seus relacionamentos no sistema. Aqui está uma proposta de modelo ER para um sistema de agendamento de horários:
 
-Entidades:
+<h3>Entidades:</h3>
 
-Cliente: pessoa que agenda o horário.
+Usuario: pessoa que agenda o horário.
 
 Funcionário: pessoa que presta o serviço agendado.
 
@@ -27,7 +28,7 @@ Horário: horário disponível para agendamento.
 Agendamento: reserva de um horário para um serviço com um funcionário.
 
 Relacionamentos:
-Um cliente pode fazer muitos agendamentos
+Um Usuario faz o faz o login
 Um agendamento é feito por um cliente
 Um agendamento é para um único horário
 Um agendamento é para um único serviço
@@ -41,10 +42,11 @@ Um funcionário pode ter muitos agendamentos.
 
 ## Projeto da Base de Dados
 
-Definir os requisitos de negócios: O sistema de agendamento de horários deve permitir que clientes agendem serviços com funcionários em horários disponíveis. Os clientes devem ser capazes de visualizar os horários disponíveis para os serviços que desejam agendar, selecionar um horário disponível e confirmar o agendamento. Os funcionários devem ser capazes de visualizar sua agenda diária com os serviços agendados e os horários disponíveis.
-Identificar as entidades e seus relacionamentos.
+<p>Definir os requisitos de negócios: O sistema de agendamento de horários deve permitir que clientes agendem serviços com funcionários em horários disponíveis. Os clientes devem ser capazes de visualizar os horários disponíveis para os serviços que desejam agendar, selecionar um horário disponível e confirmar o agendamento. Os funcionários devem ser capazes de visualizar sua agenda diária com os serviços agendados e os horários disponíveis.
+Identificar as entidades e seus relacionamentos.</p>
 
-<img width="631" alt="Screenshot 2023-04-12 at 8 58 26 PM" src="https://user-images.githubusercontent.com/112135152/231612372-89128cb4-9da2-4a71-bb47-02973871049b.png">
+![3938e5fb-b5be-49d1-9c48-152b0c8b4e9b](https://user-images.githubusercontent.com/112135152/231613654-d1ffe176-b422-4f90-ab4f-2634cef94ff5.jpg)
+
 
 
 
@@ -63,4 +65,4 @@ A solução implementada conta com os seguintes módulos:
 ## Hospedagem
 O site utiliza a plataforma do GitHub como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
 
-> - [Website com GitHub Pages](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_2)
+> - [Website com GitHub Pages](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-livesafe/)
