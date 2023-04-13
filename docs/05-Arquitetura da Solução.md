@@ -50,6 +50,10 @@ A solução implementada conta com os seguintes módulos:
 
 
 ## Hospedagem
-O site utiliza a plataforma do GitHub como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
+O site utiliza a plataforma do [000webhost](https://projetolifesafe.000webhostapp.com/) como ambiente de hospedagem. Atravésda URL: 
+
+> - https://projetolifesafe.000webhostapp.com/
+
+O site utiliza a plataforma do GitHub como ambiente de hospedagem do código fonte do site do projeto. O código é mantido no ambiente da URL: 
 
 > - [Website com GitHub Pages](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-livesafe/)
