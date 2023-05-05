@@ -1,19 +1,39 @@
 # Registro de Testes de Software
+Tabela de resumo com os resultados dos testes.
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Caso de teste	Descrição	Resultado
+CT-01	Realizar Cadastro e Login	Sucesso
+CT-02	Realizar Pesquisa de Vazamento de Dados	Sucesso
+CT-03	Exibir Resultado da Pesquisa	Sucesso
+CT-04	Disponiblizar Informações	Sucesso
+CT-05	Salvar Registro do Usuário	Sucesso
 
-<p>Figura 01 - CT 11 - Realizar Cadastro e Login</p>
-<img width="1038" alt="Screenshot 2023-04-04 at 8 35 52 PM" src="https://user-images.githubusercontent.com/112135152/229945401-a180efbd-33ea-42b1-a448-7488ef68bf05.png">
+CT-01- Realizar Cadastro e Login
+Conforme o CT-01, o teste foi executado com sucesso. Todas os campos preecnhidos e enviados, são armazenados no banco de dados da aplicação.
 
-<p>Figura 02 - CT 12 – Realizar Pesquisa de Vazamento de Dados</p>
-<img width="1038" alt="Screenshot 2023-04-04 at 8 42 58 PM" src="https://user-images.githubusercontent.com/112135152/229946053-4d111467-7761-4f3d-b22b-6934bf8c4647.png">
+Tela de cadastro
 
-<p>Figura 03 - CT 13- Exibir resultado da pesquisa</p>
-<img width="1034" alt="Screenshot 2023-04-04 at 8 36 38 PM" src="https://user-images.githubusercontent.com/112135152/229945470-68727764-a719-402c-95b8-9347a8456994.png">
+CT-02-Realizar Pesquisa de Vazamento de Dados
+Conforme o CT-02, o teste foi executado com sucesso. Ao digitar o email ou CPF do dado a ser pesquisado, o resultado é exibido.
 
-<img width="1038" alt="Screenshot 2023-04-04 at 8 37 14 PM" src="https://user-images.githubusercontent.com/112135152/229945551-f55f39ed-84a6-4459-927d-1abb3b32ac8b.png">
+Consultar se dados foram vazados
 
-<img width="1038" alt="Screenshot 2023-04-04 at 8 37 28 PM" src="https://user-images.githubusercontent.com/112135152/229945619-e7a9bb3a-e8e6-4834-a7be-79ff5a4103cd.png">
+CT-03- Exibir Resultado da Pesquisa
+Conforme o CT-03, o teste foi executado com sucesso. Ao clicar em pesquisar, a página de informções detalhadas é exibida.
 
-<p>Figura 04 - CT 14 - Disponibilizar informações</p>
-<img width="1034" alt="Screenshot 2023-04-04 at 8 36 25 PM" src="https://user-images.githubusercontent.com/112135152/229945453-1102485c-a1a2-425b-af84-a336374ef1bb.png">
+Botão Pesquisar
+
+CT-04- Disponiblizar Informações
+Conforme o CT-04, o teste foi executado com sucesso. É possível através da página visualizar reportagens sobre segurança digital.
+
+Disponibilizar Detalhadas
+
+CT-05- Salvar Registro do Usuário
+Conforme o CT-05, o teste foi executado com sucesso. Ao alterar algum campo na área de cadastro e clicar em salvar, a mensagem de atualizado com sucesso é exibida, e as informações atualizadas.
+
+Salvar registro membro
+
+
+
+Avaliação
+Todos os testes foram executados com sucesso conforme o plano de teste proposto. Tanto o front-end, quando o back-end tiveram uma boa integração para que os resultados fossem alcançados. 
