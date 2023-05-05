@@ -1,15 +1,49 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+O objetivo geral deste teste é avaliar a usabilidade do software.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+Os desenvolvedores Web Front-end e Back-end junto com os demais integrantes do grupo conduziram o teste de usabilidade online. Foram registrados comentários, opções de navegação, anotações do registro de dados, visibilidade do sistema dentre outros. Os integrantes do teste estavam em locais distintos, pois o teste foi realizado online.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+## Funcionalidades testadas
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+As funcionalidades a seguir são as principais que foram usadas para que o teste da aplicação/página fosse concluído com êxito.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Tela de Login e Cadastro : Realizar o preenchimento dos campos de Informações Pessoais e de Localidade da página de cadastro. Após preenchimento de todos os campos requeridos, o usuário irá clicar no botão SALVAR ou ENTRAR.
+
+Realizar Pesquisa de Vazamento de Dados : Escolher o parâmetro a ser filtrado, digitar o dado a ser buscado, e clicar em pesquisar.
+
+
+<b>Metodologia</b>
+
+Cada participante do projeto realizou o teste individualmente durante o tempo de 20 minutos aproximadamente. Durante a sessão, foi necessário que cada participante preenchesse um breve questionário de avaliação. Assim os participantes puderam fazer um teste com resultado final com notas.
+
+<b>Critérios a ser seguido:</b>
+
+Nota 1- Péssimo (refazer funcionalidade)
+
+Nota 2- Ruim (refazer uma parte da funcionalidade)
+
+Nota 3- Mediano (alterações pontuais)
+
+Nota 4- Muito bom (experimentar e iterar)
+
+Nota 5- Excelente (pronto para testar em produção)
+
+### Resultados
+
+<b>Tabela com resumo dos resultados.</b>
+
+Funcionalidades	Média de Notas	Resultado
+
+Tela de Login e Cadastro	5	Pronto para produção
+
+Realizar Pesquisa de Vazamento de Dados	5	Pronto para produção
+
+
+ATIVIDADE A SER REALIZADA	FEEDBACK DO USUÁRIO	CONSIDERAÇÕES	SUGESTÃO DE MELHORIAS	AVALIAÇÃO (DE 1 A 5)
+Cadastrar e Realizar Login	O cadastramento de usuários ou realizar login está intutivo, basta preencher as informações dos usuários de forma correta e clicar em salvar ou entrar.	Interface clara e intuitiva	Nada a acrescentar	5
+Realizar Pesquisa de Vazamentio de Dados	Tela de cadastro de fácil preenchimento	Bonita interface e fácil de entender	O botão de verificar poderia ser maior	5
+
+<b>Conclusão</b>
+
+A maioria dos participantes considerou que o sistema de Consulta de Vazamento de Dados  bem organizado, limpo, muito útil e fácil de usar. Ter um site com acesso a informações sobre ter mais segurança ao usar a internet é fundamental. A implementação/atualizações, recomendações e a continuidade do trabalho com os usuários garantirá um site contínuo centrado na sua função primordial, manter um banco de dados seguro.
