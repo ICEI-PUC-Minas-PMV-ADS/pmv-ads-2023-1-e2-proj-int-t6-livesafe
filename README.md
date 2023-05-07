@@ -47,7 +47,7 @@ A Aplicação é muito simples, por outro lado muito importante. O usuário digi
 
 # Armazenamento do Código-Fonte
 
-* <a href="src/README.md">Código Fonte</a>
+* <a href="Live-Safe-v02\Live-Safe-v02">Código Fonte</a>
 
 # Armazenamento da Apresentação
 
