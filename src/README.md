@@ -2,10 +2,23 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+O site em AspNet 5 é um projeto dinânmico, logo pode ser utilizado baixando e executando num computador ou subindo para uma hospegaem adequada, que suporte AspNet 5 entity e etc.
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [0.1.0] - 07/05/2023
 #### Adicionado
-- Adicionado ...
+- Feat.:
+
+- CSS
+- Bootstrap
+
+- Para Usuário comum e Usuário Administrador:
+  -Criar nova conta;
+  -Login;
+  -Logout;
+
+- Visível para administrador apenas:
+  - Lista de Usuários Cadastrados ;
+  - banco de dados exposto; e
+  - Editar, excluir, BD.
