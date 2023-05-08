@@ -2,7 +2,7 @@
 
 ## Instalação do Site
 
-O site em AspNet 5 é um projeto dinânmico, logo pode ser utilizado baixando e executando num computador ou subindo para uma hospegaem adequada, que suporte AspNet 5 entity e etc.
+O site em AspNet 5 é um projeto dinâmico, logo pode ser utilizado baixando e executando num computador ou subindo para uma hospegaem adequada, que suporte AspNet 5 entity e etc.
 
 ## Histórico de versões
 
