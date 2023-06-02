@@ -4,6 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
+<div class="caixa-pesquisa text-light">
 <h1>Edit</h1>
 
 <h4>Usuarios</h4>
@@ -29,7 +30,7 @@
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
 
-    <!-- Apenas o administrador pode alterar o perfil do usuário -->
+            <!-- Apenas o administrador pode alterar o perfil do usuário normal/admin -->
             @if (User.IsInRole("Administrador")) {
                 <div class="form-group">
                     <label asp-for="Perfil" class="control-label"></label>
@@ -45,10 +46,14 @@
     </div>
 </div>
 
+<!-- Apenas o administrador pode voltar para a lista de usuários -->
+@if (User.IsInRole("Administrador")){
 <div>
     <a asp-action="Index">Back to List</a>
-</div>
+    </div>
+}
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+</div>

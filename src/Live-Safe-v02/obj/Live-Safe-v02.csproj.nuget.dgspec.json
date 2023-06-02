@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\temp\\Live-Safe-v02\\Live-Safe-v02\\Live-Safe-v02.csproj": {}
+    "C:\\Users\\Felipe\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t6-livesafe\\src\\Live-Safe-v02\\Live-Safe-v02.csproj": {}
   },
   "projects": {
-    "C:\\temp\\Live-Safe-v02\\Live-Safe-v02\\Live-Safe-v02.csproj": {
+    "C:\\Users\\Felipe\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t6-livesafe\\src\\Live-Safe-v02\\Live-Safe-v02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\Live-Safe-v02\\Live-Safe-v02\\Live-Safe-v02.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t6-livesafe\\src\\Live-Safe-v02\\Live-Safe-v02.csproj",
         "projectName": "Live-Safe-v02",
-        "projectPath": "C:\\temp\\Live-Safe-v02\\Live-Safe-v02\\Live-Safe-v02.csproj",
+        "projectPath": "C:\\Users\\Felipe\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t6-livesafe\\src\\Live-Safe-v02\\Live-Safe-v02.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\temp\\Live-Safe-v02\\Live-Safe-v02\\obj\\",
+        "outputPath": "C:\\Users\\Felipe\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t6-livesafe\\src\\Live-Safe-v02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

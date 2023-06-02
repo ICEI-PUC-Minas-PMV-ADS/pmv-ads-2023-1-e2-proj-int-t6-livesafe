@@ -6,7 +6,7 @@
 
 <h1>Details</h1>
 
-<div>
+<div class="caixa-pesquisa text-light">
     <h4>Expostos</h4>
     <hr />
     <dl class="row">
@@ -24,7 +24,7 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="caixa-pesquisa text-light">
+    <a class="btn btn-outline-danger" asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a class="btn btn-outline-info" asp-action="Index">Back to List</a>
 </div>

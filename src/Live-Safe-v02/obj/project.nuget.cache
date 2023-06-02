@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AR4Mp3WDK3OTYmnxZ7gyKXqZ8wbSDbrRiABSXNHp3e4As7E2JB7cEqdgS0DXL9g+F6W/+EGdJOzXIcz/z2bPVw==",
+  "dgSpecHash": "J7iJNx2pWEns8SJHCZiIa9xqx1Vb5pp/f7kG2nk2fWoXvcvexX53ycB9pBBxo3BAyqujFGTwzeavFu0uJ9tqng==",
   "success": true,
-  "projectFilePath": "C:\\temp\\Live-Safe-v02\\Live-Safe-v02\\Live-Safe-v02.csproj",
+  "projectFilePath": "C:\\Users\\Felipe\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t6-livesafe\\src\\Live-Safe-v02\\Live-Safe-v02.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felipe\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Felipe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

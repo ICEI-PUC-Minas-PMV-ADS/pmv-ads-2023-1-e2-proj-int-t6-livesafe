@@ -3,13 +3,13 @@
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Index</h1>
+<div class="caixa-pesquisa">
+<h1 class="text-light text-info" asp-area="" asp-controller="" asp-action="" asp-route-id="">Lista de Usuarioas Cadastrados</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-outline-info text-light">Create New</a>
 </p>
-<table class="table">
+    <table class="table text-light">
     <thead>
         <tr>
             <th>
@@ -34,7 +34,7 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Email)
+                <p class="text-center">@Html.DisplayFor(modelItem => item.Email)</p>
             </td>
             <td>
                     **(...)**
@@ -43,11 +43,12 @@
                 @Html.DisplayFor(modelItem => item.Perfil)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a class="btn-info text-light" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a class="btn-warning text-light" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a class="btn-danger text-light" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</div>
