@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Live_Safe_v02.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Live_Safe_v02.Controllers
 {
@@ -17,6 +18,38 @@ namespace Live_Safe_v02.Controllers
         {
             _context = context;
         }
+
+        // GET: Verificar
+        [AllowAnonymous] // <--- Anotação para liberar o acesso sem login
+        public IActionResult Verificar() {
+            return View();
+        }
+
+        // Relatorio se o email informado está no banco de dados Expostos
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [AllowAnonymous] // <--- Anotação para liberar o acesso sem login
+        public async Task<IActionResult> Verificar([Bind("Email")] Expostos exposto) {
+            // Verificar se o email foi informado
+            if (string.IsNullOrEmpty(exposto.Email)) {
+                ViewBag.Error = "Por favor, informe um email!";
+                return View();
+            }
+
+            // Verificar se o email informado está no banco de dados Expostos
+            var user = await _context.Expostos
+                .FirstOrDefaultAsync(m => m.Email == exposto.Email);
+            if (user == null) {
+                // Se não estiver, exibir mensagem de sucesso
+                ViewBag.Error = "Boas notícias! Nenhum vazamento de informação foi encontrado!";
+                return View();
+            }
+            // Se o usuário for encontrado, precisa carregar a propriedade "Origem" antes pra usá-la na exibição da mensagem de erro
+            var origem = _context.Entry(user).Property(u => u.Origem).CurrentValue;
+            ViewBag.Message = "Péssimo! Você encontrou um vazamento de informação! Em [" + user.Origem + "].";
+            return View();
+        }
+
 
         // GET: Expostos
         public async Task<IActionResult> Index()

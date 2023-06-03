@@ -8,7 +8,7 @@
             <h2 class="subtitulo" id="subtitulo-principal">Verifique se seu e-mail ou telefone foi vazado</h2>
             <form class="formulário" id="formulário-pesquisa">
                 <input type="text" id="pesquisa-campo" name="pesquisa" placeholder="E-mail, telefone e CPF">
-                <button id="submit-pesquisa">Verificar</button>
+                <button id="submit-pesquisa" asp-controller="Expostos" asp-action="Verificar">Verificar</button>
             </form>
             <div id="resultado">
                 <div id="resLeak" class="container"></div>
