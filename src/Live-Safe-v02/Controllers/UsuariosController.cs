@@ -125,9 +125,9 @@ namespace Live_Safe_v02.Controllers
                 // Salvar a senha criptografada no banco de dados
                 _context.Add(usuarios);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect("/Usuarios/Login");
             }
-            return View(usuarios);
+            return View();
         }
 
         // GET: Usuarios/Edit/5
