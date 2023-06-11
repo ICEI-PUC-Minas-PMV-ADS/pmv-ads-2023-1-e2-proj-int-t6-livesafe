@@ -878,7 +878,6 @@ C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Usuarios\AcessDenied.cshtml.g.cs
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Usuarios\Create.cshtml.g.cs
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Usuarios\Delete.cshtml.g.cs
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Usuarios\Details.cshtml.g.cs
@@ -898,3 +897,4 @@ C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Live-Safe-v02.genruntimeconfig.cache
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\ref\Live-Safe-v02.dll
 C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Expostos\Verificar.cshtml.g.cs
+C:\Users\Felipe\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t6-livesafe\src\Live-Safe-v02\obj\Debug\net5.0\Razor\Views\Usuarios\AccessDenied.cshtml.g.cs

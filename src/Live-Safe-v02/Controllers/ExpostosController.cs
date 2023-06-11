@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Live_Safe_v02.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class ExpostosController : Controller
     {
         private readonly ApplicationDbContext _context;

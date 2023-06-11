@@ -49,7 +49,7 @@
                         @* Exibe nome usuário logado *@
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Edit" asp-route-id="">Olá, @User.Identity.Name!</a>
+                                <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Edit" asp-route-id="User.Claims.ElementAt(0)">Olá, @User.Identity.Name (@User.Claims.ElementAt(2))!</a>
                             </li>
                             <li>
                                 <a class="nav-link text-danger" asp-area="" asp-controller="Usuarios" asp-action="Logout">Logout</a>
