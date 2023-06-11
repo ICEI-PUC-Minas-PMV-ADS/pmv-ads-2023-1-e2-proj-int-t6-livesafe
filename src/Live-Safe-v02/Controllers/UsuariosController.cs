@@ -12,6 +12,8 @@ using Microsoft.AspNetCore.Authentication;
 
 namespace Live_Safe_v02.Controllers
 {
+    // Tudo aqui é operado apenas pelo admin, exceto o login e logout, criar novo usuário e o acesso negado (que é liberado pra todos). 
+    [Authorize(Roles = "Administrador")]
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -76,6 +78,7 @@ namespace Live_Safe_v02.Controllers
         }
 
         // Logout redirecionando pro login
+        [AllowAnonymous] // <--- Anotação para liberar o clique
         public async Task<IActionResult> Logout() {
             await HttpContext.SignOutAsync();
             return RedirectToAction("Login", "Usuarios");
@@ -106,6 +109,7 @@ namespace Live_Safe_v02.Controllers
         }
 
         // GET: Usuarios/Create
+        [AllowAnonymous] // <--- Anotação para liberar o acesso sem login
         public IActionResult Create()
         {
             return View();
