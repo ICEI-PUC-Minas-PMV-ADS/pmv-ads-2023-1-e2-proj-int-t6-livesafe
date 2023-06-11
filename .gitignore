@@ -1,1 +1,2 @@
-src/Live-Safe-v02/bin/Debug/*
+src/Live-Safe-v02/bin/Debug/**
+.vscode/**
