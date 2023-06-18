@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Authentication;
 namespace Live_Safe_v02.Controllers
 {
     // Tudo aqui é operado apenas pelo admin, exceto o login e logout, criar novo usuário e o acesso negado (que é liberado pra todos). 
-    [Authorize(Roles = "Administrador")]
+    //[Authorize(Roles = "Administrador")]
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
