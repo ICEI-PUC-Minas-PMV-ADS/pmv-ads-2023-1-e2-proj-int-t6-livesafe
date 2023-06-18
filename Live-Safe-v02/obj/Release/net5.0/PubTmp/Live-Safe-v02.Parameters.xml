@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="LiveSafe" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\rafae\\OneDrive\\Área\ de\ Trabalho\\LiveSafe\\pmv-ads-2023-1-e2-proj-int-t6-livesafe-main\\src\\Live-Safe-v02\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
