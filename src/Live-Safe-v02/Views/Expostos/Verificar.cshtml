@@ -1,4 +1,4 @@
-﻿@model Live_Safe_v02.Models.Expostos
+@model Live_Safe_v02.Models.Expostos
 
 @{
     ViewData["Title"] = "Verificar";
@@ -7,28 +7,31 @@
     <h1 class="título" id="título-principal">Segurança para todos</h1>
             <h2 class="subtitulo" id="subtitulo-principal">Verifique se seu e-mail ou telefone foi vazado</h2>
     <hr />
-    <div class="row">
-        <div class="col-md-4">
-            <form asp-action="Verificar">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="Email" class="control-label text-light"></label>
-                    <input asp-for="Email" name="Email" placeholder="E-mail, telefone e CPF"  class="form-control" />
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input asp-controller="Expostos" asp-action="Verificar"  type="submit" value="Verificar" class="btn btn-primary" />
-                </div>
+    <div class="caixa-pesquisa">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-12">
+                <form asp-action="Verificar">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group col-md-12">
+                        <label asp-for="Email" class="control-label text-light"></label>
+                        <input asp-for="Email" name="Email" placeholder="E-mail, telefone e CPF" class="form-control"/>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group text-center ">
+                        <!-- Adicionei a classe "text-center" aqui -->
+                        <input asp-controller="Expostos" asp-action="Verificar" type="submit" value="Verificar" class="btn btn-primary" />
+                    </div>
 
-                <div id="resultado" class="text-light">
-                    @ViewBag.Message
-                    @ViewBag.Error
-                </div>
-            </form>
+                    <div id="resultado" class="text-light text-center">
+                        @ViewBag.Message
+                        @ViewBag.Error
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-    <div>
-        <a asp-controller="Home"  asp-action="Index">Back to HomePage</a>
+    <div class="text-center">
+        <a asp-controller="Home" asp-action="Index">Voltar para a página inicial</a>
     </div>
 </div>
 
