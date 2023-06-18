@@ -1,4 +1,4 @@
-﻿using Live_Safe_v02.Models;
+using Live_Safe_v02.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
