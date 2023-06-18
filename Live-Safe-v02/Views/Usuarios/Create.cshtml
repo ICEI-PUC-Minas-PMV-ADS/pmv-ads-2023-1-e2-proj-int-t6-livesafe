@@ -1,0 +1,55 @@
+﻿@model Live_Safe_v02.Models.Usuarios
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="caixa-pesquisa text-light">
+    <h1 class="text-light font-weight-bold">Sign Up</h1>
+
+    <h4 class="text-light">Crie sua conta</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Senha" class="control-label"></label>
+                    <input asp-for="Senha" class="form-control" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+
+                @if (User.IsInRole("Administrador")) {
+                    <div class="form-group">
+                        <label asp-for="Perfil" class="control-label"></label>
+                        <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
+                        <span asp-validation-for="Perfil" class="text-danger"></span>
+                    </div>
+                }
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="text-white" >
+    @*Apontar para Login*@
+    <a class="text-light btn btn-primary" asp-action="Login">Já tem uma conta?</a>
+    
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
