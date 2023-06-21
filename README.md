@@ -43,11 +43,12 @@ A Aplicação é muito simples, por outro lado muito importante. O usuário digi
 
 # Hospedagem
 
-* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t6-grupo_2/ 
+* https://livesafe.azurewebsites.net/
+* ~https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t6-grupo_2/~
 
 # Armazenamento do Código-Fonte
 
-* <a href="Live-Safe-v02\Live-Safe-v02">Código Fonte</a>
+* [Código fonte (repositório da PUC)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-livesafe/edit/main/README.md)
 
 # Armazenamento da Apresentação
 
